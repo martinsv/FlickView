@@ -1,0 +1,29 @@
+PODS:
+  - DACircularProgress (2.2.0)
+  - MBProgressHUD (0.8)
+  - MMDrawerController/Core (0.5.5)
+  - MMDrawerController/MMDrawerVisualStates (0.5.5):
+    - MMDrawerController/Core
+  - MWPhotoBrowser (1.4.0):
+    - DACircularProgress
+    - MBProgressHUD (~> 0.8)
+    - PSTCollectionView (~> 1.2)
+    - SDWebImage (~> 3.5.4)
+  - PSTCollectionView (1.2.0)
+  - SDWebImage (3.5.4):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.5.4)
+
+DEPENDENCIES:
+  - MMDrawerController/MMDrawerVisualStates
+  - MWPhotoBrowser
+
+SPEC CHECKSUMS:
+  DACircularProgress: 3b41941891a56dc6aa17971f5322a9a38a6f446e
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
+  MMDrawerController: 45c08be28375eac9f0ecaa75f1f0e47eb38c8eb1
+  MWPhotoBrowser: 4efcdb9da34751f97992128a5356f3929d1af537
+  PSTCollectionView: e82c1a71ec6469f88490b674c0f66f0bbf1de001
+  SDWebImage: 571295c8acbb699505a0f68e54506147c3de9ea7
+
+COCOAPODS: 0.32.1

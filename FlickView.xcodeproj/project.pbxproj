@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A8E77C088DD4FDC8FBCF3C5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0ACECFACA64BA6AAB22A96 /* libPods.a */; };
 		4044E504193855EB0053F3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4044E503193855EB0053F3B8 /* Foundation.framework */; };
 		4044E506193855EB0053F3B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4044E505193855EB0053F3B8 /* CoreGraphics.framework */; };
 		4044E508193855EB0053F3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4044E507193855EB0053F3B8 /* UIKit.framework */; };
@@ -19,6 +20,32 @@
 		4044E51F193855EB0053F3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4044E507193855EB0053F3B8 /* UIKit.framework */; };
 		4044E527193855EB0053F3B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4044E525193855EB0053F3B8 /* InfoPlist.strings */; };
 		4044E529193855EB0053F3B8 /* FlickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E528193855EB0053F3B8 /* FlickViewTests.m */; };
+		4044E53D1938572E0053F3B8 /* FVCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E53C1938572E0053F3B8 /* FVCredentials.m */; };
+		4044E540193857460053F3B8 /* FVPhotoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E53F193857460053F3B8 /* FVPhotoObject.m */; };
+		4044E5431938576E0053F3B8 /* FVFlickrDataDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E5421938576E0053F3B8 /* FVFlickrDataDownloader.m */; };
+		4044E547193857890053F3B8 /* FVMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E546193857890053F3B8 /* FVMenuItem.m */; };
+		4044E54A193857A20053F3B8 /* FVMenuItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E549193857A20053F3B8 /* FVMenuItemList.m */; };
+		4044E55919385B580053F3B8 /* FVSideMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E55819385B580053F3B8 /* FVSideMenuCell.m */; };
+		4044E55C19385BD40053F3B8 /* FVStylesForSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E55B19385BD40053F3B8 /* FVStylesForSideMenuView.m */; };
+		4044E55F19385C120053F3B8 /* FVMainSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E55E19385C120053F3B8 /* FVMainSideMenuView.m */; };
+		4044E56419385CB40053F3B8 /* FVPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E56319385CB40053F3B8 /* FVPhotoCell.m */; };
+		4044E56719385D370053F3B8 /* FVStylesForPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E56619385D370053F3B8 /* FVStylesForPhotoView.m */; };
+		4044E56F19385DE80053F3B8 /* FVAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E56E19385DE80053F3B8 /* FVAlbumCell.m */; };
+		4044E57219385EC60053F3B8 /* FVStylesForAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E57119385EC60053F3B8 /* FVStylesForAlbumView.m */; };
+		4044E57519385F020053F3B8 /* FVMainLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E57419385F020053F3B8 /* FVMainLoginView.m */; };
+		4044E57919385F770053F3B8 /* FVStylesForLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E57819385F770053F3B8 /* FVStylesForLoginView.m */; };
+		4044E57C19385FBC0053F3B8 /* FVMainCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E57B19385FBC0053F3B8 /* FVMainCollectionView.m */; };
+		4044E57F19385FF90053F3B8 /* FVFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E57E19385FF90053F3B8 /* FVFooterView.m */; };
+		4044E585193860510053F3B8 /* FVViewAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E584193860510053F3B8 /* FVViewAnimations.m */; };
+		4044E58B193860BB0053F3B8 /* FVFadePresentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E58A193860BB0053F3B8 /* FVFadePresentVC.m */; };
+		4044E58E193860C30053F3B8 /* FVFadeDismissVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E58D193860C30053F3B8 /* FVFadeDismissVC.m */; };
+		4044E591193861060053F3B8 /* FVNavigationBarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E590193861060053F3B8 /* FVNavigationBarAnimation.m */; };
+		4044E5931938617D0053F3B8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4044E5921938617D0053F3B8 /* Podfile */; };
+		4044E596193861A10053F3B8 /* FVGlobalConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E595193861A10053F3B8 /* FVGlobalConstants.m */; };
+		4044E59D193867C60053F3B8 /* FVLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E59C193867C60053F3B8 /* FVLoginViewController.m */; };
+		4044E5A0193869680053F3B8 /* FVAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E59F193869680053F3B8 /* FVAlbumsViewController.m */; };
+		4044E5A319386AAE0053F3B8 /* FVPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E5A219386AAE0053F3B8 /* FVPhotosViewController.m */; };
+		4044E5A619386BF30053F3B8 /* FVSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4044E5A519386BF30053F3B8 /* FVSideMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +75,59 @@
 		4044E524193855EB0053F3B8 /* FlickViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickViewTests-Info.plist"; sourceTree = "<group>"; };
 		4044E526193855EB0053F3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4044E528193855EB0053F3B8 /* FlickViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickViewTests.m; sourceTree = "<group>"; };
+		4044E53B1938572E0053F3B8 /* FVCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVCredentials.h; sourceTree = "<group>"; };
+		4044E53C1938572E0053F3B8 /* FVCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVCredentials.m; sourceTree = "<group>"; };
+		4044E53E193857460053F3B8 /* FVPhotoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVPhotoObject.h; sourceTree = "<group>"; };
+		4044E53F193857460053F3B8 /* FVPhotoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVPhotoObject.m; sourceTree = "<group>"; };
+		4044E5411938576E0053F3B8 /* FVFlickrDataDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVFlickrDataDownloader.h; sourceTree = "<group>"; };
+		4044E5421938576E0053F3B8 /* FVFlickrDataDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVFlickrDataDownloader.m; sourceTree = "<group>"; };
+		4044E545193857890053F3B8 /* FVMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVMenuItem.h; sourceTree = "<group>"; };
+		4044E546193857890053F3B8 /* FVMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVMenuItem.m; sourceTree = "<group>"; };
+		4044E548193857A20053F3B8 /* FVMenuItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVMenuItemList.h; sourceTree = "<group>"; };
+		4044E549193857A20053F3B8 /* FVMenuItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVMenuItemList.m; sourceTree = "<group>"; };
+		4044E55719385B580053F3B8 /* FVSideMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVSideMenuCell.h; sourceTree = "<group>"; };
+		4044E55819385B580053F3B8 /* FVSideMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVSideMenuCell.m; sourceTree = "<group>"; };
+		4044E55A19385BD40053F3B8 /* FVStylesForSideMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVStylesForSideMenuView.h; sourceTree = "<group>"; };
+		4044E55B19385BD40053F3B8 /* FVStylesForSideMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVStylesForSideMenuView.m; sourceTree = "<group>"; };
+		4044E55D19385C120053F3B8 /* FVMainSideMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVMainSideMenuView.h; sourceTree = "<group>"; };
+		4044E55E19385C120053F3B8 /* FVMainSideMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVMainSideMenuView.m; sourceTree = "<group>"; };
+		4044E56219385CB40053F3B8 /* FVPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVPhotoCell.h; sourceTree = "<group>"; };
+		4044E56319385CB40053F3B8 /* FVPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVPhotoCell.m; sourceTree = "<group>"; };
+		4044E56519385D370053F3B8 /* FVStylesForPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVStylesForPhotoView.h; sourceTree = "<group>"; };
+		4044E56619385D370053F3B8 /* FVStylesForPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVStylesForPhotoView.m; sourceTree = "<group>"; };
+		4044E56D19385DE80053F3B8 /* FVAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVAlbumCell.h; sourceTree = "<group>"; };
+		4044E56E19385DE80053F3B8 /* FVAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVAlbumCell.m; sourceTree = "<group>"; };
+		4044E57019385EC60053F3B8 /* FVStylesForAlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVStylesForAlbumView.h; sourceTree = "<group>"; };
+		4044E57119385EC60053F3B8 /* FVStylesForAlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVStylesForAlbumView.m; sourceTree = "<group>"; };
+		4044E57319385F020053F3B8 /* FVMainLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVMainLoginView.h; sourceTree = "<group>"; };
+		4044E57419385F020053F3B8 /* FVMainLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVMainLoginView.m; sourceTree = "<group>"; };
+		4044E57719385F770053F3B8 /* FVStylesForLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVStylesForLoginView.h; sourceTree = "<group>"; };
+		4044E57819385F770053F3B8 /* FVStylesForLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVStylesForLoginView.m; sourceTree = "<group>"; };
+		4044E57A19385FBC0053F3B8 /* FVMainCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVMainCollectionView.h; sourceTree = "<group>"; };
+		4044E57B19385FBC0053F3B8 /* FVMainCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVMainCollectionView.m; sourceTree = "<group>"; };
+		4044E57D19385FF90053F3B8 /* FVFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVFooterView.h; sourceTree = "<group>"; };
+		4044E57E19385FF90053F3B8 /* FVFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVFooterView.m; sourceTree = "<group>"; };
+		4044E583193860510053F3B8 /* FVViewAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVViewAnimations.h; sourceTree = "<group>"; };
+		4044E584193860510053F3B8 /* FVViewAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVViewAnimations.m; sourceTree = "<group>"; };
+		4044E589193860BB0053F3B8 /* FVFadePresentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVFadePresentVC.h; sourceTree = "<group>"; };
+		4044E58A193860BB0053F3B8 /* FVFadePresentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVFadePresentVC.m; sourceTree = "<group>"; };
+		4044E58C193860C30053F3B8 /* FVFadeDismissVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVFadeDismissVC.h; sourceTree = "<group>"; };
+		4044E58D193860C30053F3B8 /* FVFadeDismissVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVFadeDismissVC.m; sourceTree = "<group>"; };
+		4044E58F193861060053F3B8 /* FVNavigationBarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVNavigationBarAnimation.h; sourceTree = "<group>"; };
+		4044E590193861060053F3B8 /* FVNavigationBarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVNavigationBarAnimation.m; sourceTree = "<group>"; };
+		4044E5921938617D0053F3B8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		4044E594193861A10053F3B8 /* FVGlobalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVGlobalConstants.h; sourceTree = "<group>"; };
+		4044E595193861A10053F3B8 /* FVGlobalConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVGlobalConstants.m; sourceTree = "<group>"; };
+		4044E59B193867C60053F3B8 /* FVLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVLoginViewController.h; sourceTree = "<group>"; };
+		4044E59C193867C60053F3B8 /* FVLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVLoginViewController.m; sourceTree = "<group>"; };
+		4044E59E193869680053F3B8 /* FVAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVAlbumsViewController.h; sourceTree = "<group>"; };
+		4044E59F193869680053F3B8 /* FVAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVAlbumsViewController.m; sourceTree = "<group>"; };
+		4044E5A119386AAE0053F3B8 /* FVPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVPhotosViewController.h; sourceTree = "<group>"; };
+		4044E5A219386AAE0053F3B8 /* FVPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVPhotosViewController.m; sourceTree = "<group>"; };
+		4044E5A419386BF30053F3B8 /* FVSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVSideMenuViewController.h; sourceTree = "<group>"; };
+		4044E5A519386BF30053F3B8 /* FVSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVSideMenuViewController.m; sourceTree = "<group>"; };
+		7B0ACECFACA64BA6AAB22A96 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9500695510F94AC3A1D13741 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +138,7 @@
 				4044E506193855EB0053F3B8 /* CoreGraphics.framework in Frameworks */,
 				4044E508193855EB0053F3B8 /* UIKit.framework in Frameworks */,
 				4044E504193855EB0053F3B8 /* Foundation.framework in Frameworks */,
+				3A8E77C088DD4FDC8FBCF3C5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +162,7 @@
 				4044E522193855EB0053F3B8 /* FlickViewTests */,
 				4044E502193855EB0053F3B8 /* Frameworks */,
 				4044E501193855EB0053F3B8 /* Products */,
+				9500695510F94AC3A1D13741 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +182,7 @@
 				4044E505193855EB0053F3B8 /* CoreGraphics.framework */,
 				4044E507193855EB0053F3B8 /* UIKit.framework */,
 				4044E51C193855EB0053F3B8 /* XCTest.framework */,
+				7B0ACECFACA64BA6AAB22A96 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +190,9 @@
 		4044E509193855EB0053F3B8 /* FlickView */ = {
 			isa = PBXGroup;
 			children = (
+				4044E5361938567B0053F3B8 /* Models */,
+				4044E535193856780053F3B8 /* Views */,
+				4044E534193856730053F3B8 /* Controllers */,
 				4044E512193855EB0053F3B8 /* FVAppDelegate.h */,
 				4044E513193855EB0053F3B8 /* FVAppDelegate.m */,
 				4044E515193855EB0053F3B8 /* Images.xcassets */,
@@ -118,6 +204,9 @@
 		4044E50A193855EB0053F3B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4044E594193861A10053F3B8 /* FVGlobalConstants.h */,
+				4044E595193861A10053F3B8 /* FVGlobalConstants.m */,
+				4044E5921938617D0053F3B8 /* Podfile */,
 				4044E50B193855EB0053F3B8 /* FlickView-Info.plist */,
 				4044E50C193855EB0053F3B8 /* InfoPlist.strings */,
 				4044E50F193855EB0053F3B8 /* main.m */,
@@ -144,6 +233,307 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4044E534193856730053F3B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4044E59A193867B20053F3B8 /* loginVC */,
+				4044E599193867AD0053F3B8 /* albumsVC */,
+				4044E598193867A80053F3B8 /* photosVC */,
+				4044E597193867A20053F3B8 /* menuVC */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4044E535193856780053F3B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4044E54B19385A650053F3B8 /* sideMenuView */,
+				4044E54C19385A6D0053F3B8 /* photosView */,
+				4044E54D19385A7C0053F3B8 /* albumsView */,
+				4044E54E19385A860053F3B8 /* loginView */,
+				4044E54F19385A8F0053F3B8 /* collectionView */,
+				4044E55019385A990053F3B8 /* footerView */,
+				4044E55119385AA20053F3B8 /* animationsAndTransitions */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4044E5361938567B0053F3B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4044E537193856DB0053F3B8 /* NSURLCredentials */,
+				4044E538193856E70053F3B8 /* FVPhotoObject */,
+				4044E539193856F00053F3B8 /* flickrDataDownloader */,
+				4044E53A193856FC0053F3B8 /* sideMenuItems */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4044E537193856DB0053F3B8 /* NSURLCredentials */ = {
+			isa = PBXGroup;
+			children = (
+				4044E53B1938572E0053F3B8 /* FVCredentials.h */,
+				4044E53C1938572E0053F3B8 /* FVCredentials.m */,
+			);
+			name = NSURLCredentials;
+			sourceTree = "<group>";
+		};
+		4044E538193856E70053F3B8 /* FVPhotoObject */ = {
+			isa = PBXGroup;
+			children = (
+				4044E53E193857460053F3B8 /* FVPhotoObject.h */,
+				4044E53F193857460053F3B8 /* FVPhotoObject.m */,
+			);
+			name = FVPhotoObject;
+			sourceTree = "<group>";
+		};
+		4044E539193856F00053F3B8 /* flickrDataDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				4044E5411938576E0053F3B8 /* FVFlickrDataDownloader.h */,
+				4044E5421938576E0053F3B8 /* FVFlickrDataDownloader.m */,
+			);
+			name = flickrDataDownloader;
+			sourceTree = "<group>";
+		};
+		4044E53A193856FC0053F3B8 /* sideMenuItems */ = {
+			isa = PBXGroup;
+			children = (
+				4044E544193857770053F3B8 /* itemList */,
+				4044E545193857890053F3B8 /* FVMenuItem.h */,
+				4044E546193857890053F3B8 /* FVMenuItem.m */,
+			);
+			name = sideMenuItems;
+			sourceTree = "<group>";
+		};
+		4044E544193857770053F3B8 /* itemList */ = {
+			isa = PBXGroup;
+			children = (
+				4044E548193857A20053F3B8 /* FVMenuItemList.h */,
+				4044E549193857A20053F3B8 /* FVMenuItemList.m */,
+			);
+			name = itemList;
+			sourceTree = "<group>";
+		};
+		4044E54B19385A650053F3B8 /* sideMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				4044E55319385AC20053F3B8 /* sideMenuCell */,
+				4044E55D19385C120053F3B8 /* FVMainSideMenuView.h */,
+				4044E55E19385C120053F3B8 /* FVMainSideMenuView.m */,
+				4044E55219385ABB0053F3B8 /* styles */,
+			);
+			name = sideMenuView;
+			sourceTree = "<group>";
+		};
+		4044E54C19385A6D0053F3B8 /* photosView */ = {
+			isa = PBXGroup;
+			children = (
+				4044E56119385C9C0053F3B8 /* photoCell */,
+				4044E56019385C970053F3B8 /* styles */,
+			);
+			name = photosView;
+			sourceTree = "<group>";
+		};
+		4044E54D19385A7C0053F3B8 /* albumsView */ = {
+			isa = PBXGroup;
+			children = (
+				4044E56919385D700053F3B8 /* albumCell */,
+				4044E56819385D6B0053F3B8 /* styles */,
+			);
+			name = albumsView;
+			sourceTree = "<group>";
+		};
+		4044E54E19385A860053F3B8 /* loginView */ = {
+			isa = PBXGroup;
+			children = (
+				4044E57319385F020053F3B8 /* FVMainLoginView.h */,
+				4044E57419385F020053F3B8 /* FVMainLoginView.m */,
+				4044E57619385F050053F3B8 /* styles */,
+			);
+			name = loginView;
+			sourceTree = "<group>";
+		};
+		4044E54F19385A8F0053F3B8 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				4044E57A19385FBC0053F3B8 /* FVMainCollectionView.h */,
+				4044E57B19385FBC0053F3B8 /* FVMainCollectionView.m */,
+			);
+			name = collectionView;
+			sourceTree = "<group>";
+		};
+		4044E55019385A990053F3B8 /* footerView */ = {
+			isa = PBXGroup;
+			children = (
+				4044E57D19385FF90053F3B8 /* FVFooterView.h */,
+				4044E57E19385FF90053F3B8 /* FVFooterView.m */,
+			);
+			name = footerView;
+			sourceTree = "<group>";
+		};
+		4044E55119385AA20053F3B8 /* animationsAndTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				4044E5821938603A0053F3B8 /* viewAnimation */,
+				4044E581193860340053F3B8 /* customTransitions */,
+				4044E5801938602A0053F3B8 /* navigationBarAnimation */,
+			);
+			name = animationsAndTransitions;
+			sourceTree = "<group>";
+		};
+		4044E55219385ABB0053F3B8 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				4044E55A19385BD40053F3B8 /* FVStylesForSideMenuView.h */,
+				4044E55B19385BD40053F3B8 /* FVStylesForSideMenuView.m */,
+			);
+			name = styles;
+			sourceTree = "<group>";
+		};
+		4044E55319385AC20053F3B8 /* sideMenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				4044E55719385B580053F3B8 /* FVSideMenuCell.h */,
+				4044E55819385B580053F3B8 /* FVSideMenuCell.m */,
+			);
+			name = sideMenuCell;
+			sourceTree = "<group>";
+		};
+		4044E56019385C970053F3B8 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				4044E56519385D370053F3B8 /* FVStylesForPhotoView.h */,
+				4044E56619385D370053F3B8 /* FVStylesForPhotoView.m */,
+			);
+			name = styles;
+			sourceTree = "<group>";
+		};
+		4044E56119385C9C0053F3B8 /* photoCell */ = {
+			isa = PBXGroup;
+			children = (
+				4044E56219385CB40053F3B8 /* FVPhotoCell.h */,
+				4044E56319385CB40053F3B8 /* FVPhotoCell.m */,
+			);
+			name = photoCell;
+			sourceTree = "<group>";
+		};
+		4044E56819385D6B0053F3B8 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				4044E57019385EC60053F3B8 /* FVStylesForAlbumView.h */,
+				4044E57119385EC60053F3B8 /* FVStylesForAlbumView.m */,
+			);
+			name = styles;
+			sourceTree = "<group>";
+		};
+		4044E56919385D700053F3B8 /* albumCell */ = {
+			isa = PBXGroup;
+			children = (
+				4044E56D19385DE80053F3B8 /* FVAlbumCell.h */,
+				4044E56E19385DE80053F3B8 /* FVAlbumCell.m */,
+			);
+			name = albumCell;
+			sourceTree = "<group>";
+		};
+		4044E57619385F050053F3B8 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				4044E57719385F770053F3B8 /* FVStylesForLoginView.h */,
+				4044E57819385F770053F3B8 /* FVStylesForLoginView.m */,
+			);
+			name = styles;
+			sourceTree = "<group>";
+		};
+		4044E5801938602A0053F3B8 /* navigationBarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				4044E58F193861060053F3B8 /* FVNavigationBarAnimation.h */,
+				4044E590193861060053F3B8 /* FVNavigationBarAnimation.m */,
+			);
+			name = navigationBarAnimation;
+			sourceTree = "<group>";
+		};
+		4044E581193860340053F3B8 /* customTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				4044E5861938608E0053F3B8 /* crossfadeTransition */,
+			);
+			name = customTransitions;
+			sourceTree = "<group>";
+		};
+		4044E5821938603A0053F3B8 /* viewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				4044E583193860510053F3B8 /* FVViewAnimations.h */,
+				4044E584193860510053F3B8 /* FVViewAnimations.m */,
+			);
+			name = viewAnimation;
+			sourceTree = "<group>";
+		};
+		4044E5861938608E0053F3B8 /* crossfadeTransition */ = {
+			isa = PBXGroup;
+			children = (
+				4044E588193860A50053F3B8 /* presentVC */,
+				4044E5871938609F0053F3B8 /* dismissVC */,
+			);
+			name = crossfadeTransition;
+			sourceTree = "<group>";
+		};
+		4044E5871938609F0053F3B8 /* dismissVC */ = {
+			isa = PBXGroup;
+			children = (
+				4044E58C193860C30053F3B8 /* FVFadeDismissVC.h */,
+				4044E58D193860C30053F3B8 /* FVFadeDismissVC.m */,
+			);
+			name = dismissVC;
+			sourceTree = "<group>";
+		};
+		4044E588193860A50053F3B8 /* presentVC */ = {
+			isa = PBXGroup;
+			children = (
+				4044E589193860BB0053F3B8 /* FVFadePresentVC.h */,
+				4044E58A193860BB0053F3B8 /* FVFadePresentVC.m */,
+			);
+			name = presentVC;
+			sourceTree = "<group>";
+		};
+		4044E597193867A20053F3B8 /* menuVC */ = {
+			isa = PBXGroup;
+			children = (
+				4044E5A419386BF30053F3B8 /* FVSideMenuViewController.h */,
+				4044E5A519386BF30053F3B8 /* FVSideMenuViewController.m */,
+			);
+			name = menuVC;
+			sourceTree = "<group>";
+		};
+		4044E598193867A80053F3B8 /* photosVC */ = {
+			isa = PBXGroup;
+			children = (
+				4044E5A119386AAE0053F3B8 /* FVPhotosViewController.h */,
+				4044E5A219386AAE0053F3B8 /* FVPhotosViewController.m */,
+			);
+			name = photosVC;
+			sourceTree = "<group>";
+		};
+		4044E599193867AD0053F3B8 /* albumsVC */ = {
+			isa = PBXGroup;
+			children = (
+				4044E59E193869680053F3B8 /* FVAlbumsViewController.h */,
+				4044E59F193869680053F3B8 /* FVAlbumsViewController.m */,
+			);
+			name = albumsVC;
+			sourceTree = "<group>";
+		};
+		4044E59A193867B20053F3B8 /* loginVC */ = {
+			isa = PBXGroup;
+			children = (
+				4044E59B193867C60053F3B8 /* FVLoginViewController.h */,
+				4044E59C193867C60053F3B8 /* FVLoginViewController.m */,
+			);
+			name = loginVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +541,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4044E52C193855EB0053F3B8 /* Build configuration list for PBXNativeTarget "FlickView" */;
 			buildPhases = (
+				2721AEF731074AE8B16C9F6E /* Check Pods Manifest.lock */,
 				4044E4FC193855EB0053F3B8 /* Sources */,
 				4044E4FD193855EB0053F3B8 /* Frameworks */,
 				4044E4FE193855EB0053F3B8 /* Resources */,
+				650998E464054FED868C4408 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4044E50E193855EB0053F3B8 /* InfoPlist.strings in Resources */,
+				4044E5931938617D0053F3B8 /* Podfile in Resources */,
 				4044E516193855EB0053F3B8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,13 +628,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2721AEF731074AE8B16C9F6E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		650998E464054FED868C4408 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4044E4FC193855EB0053F3B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4044E514193855EB0053F3B8 /* FVAppDelegate.m in Sources */,
+				4044E5A319386AAE0053F3B8 /* FVPhotosViewController.m in Sources */,
+				4044E57F19385FF90053F3B8 /* FVFooterView.m in Sources */,
+				4044E55F19385C120053F3B8 /* FVMainSideMenuView.m in Sources */,
+				4044E55919385B580053F3B8 /* FVSideMenuCell.m in Sources */,
 				4044E510193855EB0053F3B8 /* main.m in Sources */,
+				4044E56F19385DE80053F3B8 /* FVAlbumCell.m in Sources */,
+				4044E5A0193869680053F3B8 /* FVAlbumsViewController.m in Sources */,
+				4044E59D193867C60053F3B8 /* FVLoginViewController.m in Sources */,
+				4044E591193861060053F3B8 /* FVNavigationBarAnimation.m in Sources */,
+				4044E53D1938572E0053F3B8 /* FVCredentials.m in Sources */,
+				4044E56719385D370053F3B8 /* FVStylesForPhotoView.m in Sources */,
+				4044E57C19385FBC0053F3B8 /* FVMainCollectionView.m in Sources */,
+				4044E56419385CB40053F3B8 /* FVPhotoCell.m in Sources */,
+				4044E5A619386BF30053F3B8 /* FVSideMenuViewController.m in Sources */,
+				4044E57519385F020053F3B8 /* FVMainLoginView.m in Sources */,
+				4044E5431938576E0053F3B8 /* FVFlickrDataDownloader.m in Sources */,
+				4044E58E193860C30053F3B8 /* FVFadeDismissVC.m in Sources */,
+				4044E540193857460053F3B8 /* FVPhotoObject.m in Sources */,
+				4044E57219385EC60053F3B8 /* FVStylesForAlbumView.m in Sources */,
+				4044E57919385F770053F3B8 /* FVStylesForLoginView.m in Sources */,
+				4044E585193860510053F3B8 /* FVViewAnimations.m in Sources */,
+				4044E547193857890053F3B8 /* FVMenuItem.m in Sources */,
+				4044E54A193857A20053F3B8 /* FVMenuItemList.m in Sources */,
+				4044E58B193860BB0053F3B8 /* FVFadePresentVC.m in Sources */,
+				4044E55C19385BD40053F3B8 /* FVStylesForSideMenuView.m in Sources */,
+				4044E596193861A10053F3B8 /* FVGlobalConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +806,7 @@
 		};
 		4044E52D193855EB0053F3B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9500695510F94AC3A1D13741 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -368,6 +820,7 @@
 		};
 		4044E52E193855EB0053F3B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9500695510F94AC3A1D13741 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -438,6 +891,7 @@
 				4044E52E193855EB0053F3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4044E52F193855EB0053F3B8 /* Build configuration list for PBXNativeTarget "FlickViewTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +900,7 @@
 				4044E531193855EB0053F3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
