@@ -157,37 +157,12 @@
     layoutAttributes.hidden = self.isHidden;
     return layoutAttributes;
 }
-
+@end
 ///////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark - PSTCollection/UICollection interoperability
 
-#import <objc/runtime.h>
-- (NSMethodSignature *)methodSignatureForSelector:(SEL)selector {
-    NSMethodSignature *signature = [super methodSignatureForSelector:selector];
-    if (!signature) {
-        NSString *selString = NSStringFromSelector(selector);
-        if ([selString hasPrefix:@"_"]) {
-            SEL cleanedSelector = NSSelectorFromString([selString substringFromIndex:1]);
-            signature = [super methodSignatureForSelector:cleanedSelector];
-        }
-    }
-    return signature;
-}
 
-- (void)forwardInvocation:(NSInvocation *)invocation {
-    NSString *selString = NSStringFromSelector([invocation selector]);
-    if ([selString hasPrefix:@"_"]) {
-        SEL cleanedSelector = NSSelectorFromString([selString substringFromIndex:1]);
-        if ([self respondsToSelector:cleanedSelector]) {
-            invocation.selector = cleanedSelector;
-            [invocation invokeWithTarget:self];
-        }
-    }else {
-        [super forwardInvocation:invocation];
-    }
-}
-
-@end
+//Extracted to NSCollectionViewLayout
 
 
 @interface PSTCollectionViewLayout () {
@@ -232,6 +207,33 @@
 - (void)setCollectionView:(PSTCollectionView *)collectionView {
     if (collectionView != _collectionView) {
         _collectionView = collectionView;
+    }
+}
+
+#pragma mark - Transfered methods. Temp
+//In order to fix errors for iOS8
+- (NSMethodSignature *)methodSignatureForSelector:(SEL)selector {
+    NSMethodSignature *signature = [super methodSignatureForSelector:selector];
+    if (!signature) {
+        NSString *selString = NSStringFromSelector(selector);
+        if ([selString hasPrefix:@"_"]) {
+            SEL cleanedSelector = NSSelectorFromString([selString substringFromIndex:1]);
+            signature = [super methodSignatureForSelector:cleanedSelector];
+        }
+    }
+    return signature;
+}
+
+- (void)forwardInvocation:(NSInvocation *)invocation {
+    NSString *selString = NSStringFromSelector([invocation selector]);
+    if ([selString hasPrefix:@"_"]) {
+        SEL cleanedSelector = NSSelectorFromString([selString substringFromIndex:1]);
+        if ([self respondsToSelector:cleanedSelector]) {
+            invocation.selector = cleanedSelector;
+            [invocation invokeWithTarget:self];
+        }
+    }else {
+        [super forwardInvocation:invocation];
     }
 }
 
