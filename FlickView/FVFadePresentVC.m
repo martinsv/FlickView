@@ -27,6 +27,7 @@
     
     //Prepare VC for animation
     toVC.view.alpha = 0.0;
+    fromVC.view.alpha = 1.0;
     
     //Do animation
     [UIView animateWithDuration:0.3 animations:^{

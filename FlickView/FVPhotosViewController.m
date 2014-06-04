@@ -209,8 +209,9 @@ NSString *const kPhotosVCTypeAllPhotosetPhotos   = @"photosVCAllGelleryPhotos";
     //Set indexPath for photoBrowser
     [self.photoBrowser setCurrentPhotoIndex:indexPath.row];
     //Set transitionDelegate and presentationStyle
-    browserController.modalPresentationStyle = UIModalPresentationCustom;
-    browserController.transitioningDelegate = self;
+    //Having some probmes with CT in iOS 8. Disabling for now.
+    browserController.modalPresentationStyle = UIModalTransitionStyleCrossDissolve;
+    //browserController.transitioningDelegate = self;
     //Present
     [self presentViewController:browserController animated:YES completion:^{
         //Completion

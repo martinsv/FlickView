@@ -28,11 +28,18 @@
     //Prepare VC for animation
     fromVC.view.alpha = 1.0;
     
+    CGRect test = fromVC.view.frame;
+    test.origin.x += test.size.width;
+    
     //Do animation
     [UIView animateWithDuration:0.3 animations:^{
         fromVC.view.alpha = 0.0;
+        fromVC.view.frame = test;
     } completion:^(BOOL finished) {
         //Animation complete
+        //[fromVC.view removeFromSuperview];
+        //[toVC.view removeFromSuperview];
+        [containerView removeFromSuperview];
         [transitionContext completeTransition:YES];
     }];
 }
